@@ -1,0 +1,1 @@
+{"version":3,"sources":["pz15/config.cljs"],"mappings":";AAEA,AAAKA,2BACMC","names":["pz15.config/debug?","js/goog.DEBUG"],"sourcesContent":["(ns pz15.config)\n\n(def debug?\n  ^boolean goog.DEBUG)\n"]}
