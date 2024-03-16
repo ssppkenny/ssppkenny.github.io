@@ -16,9 +16,9 @@ if((typeof pz15 !== 'undefined') && (typeof pz15.events !== 'undefined') && (typ
 pz15.events.RIGHT = (-10);
 }
 pz15.events.states_move = (function pz15$events$states_move(pair){
-var vec__15477 = pair;
-var prev_state = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15477,(0),null);
-var state = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15477,(1),null);
+var vec__15605 = pair;
+var prev_state = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15605,(0),null);
+var state = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15605,(1),null);
 var prev_board = new cljs.core.Keyword(null,"board","board",-1907017633).cljs$core$IFn$_invoke$arity$1(prev_state);
 var board = new cljs.core.Keyword(null,"board","board",-1907017633).cljs$core$IFn$_invoke$arity$1(state);
 var prev_zero = new cljs.core.Keyword(null,"zero","zero",-858964576).cljs$core$IFn$_invoke$arity$1(prev_state);
@@ -60,47 +60,47 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.map_indexed.cljs$c
 return (new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[b,((500) * a)],null));
 }),events),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("pz15.events","timeout-solved","pz15.events/timeout-solved",-73615761),(cljs.core.count(states) * (500))], null));
 });
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","timeout-left","pz15.events/timeout-left",-1394673148),(function (p__15480,arg){
-var map__15481 = p__15480;
-var map__15481__$1 = cljs.core.__destructure_map(map__15481);
-var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15481__$1,new cljs.core.Keyword(null,"event","event",301435442));
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15481__$1,new cljs.core.Keyword(null,"db","db",993250759));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","timeout-left","pz15.events/timeout-left",-1394673148),(function (p__15608,arg){
+var map__15609 = p__15608;
+var map__15609__$1 = cljs.core.__destructure_map(map__15609);
+var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15609__$1,new cljs.core.Keyword(null,"event","event",301435442));
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15609__$1,new cljs.core.Keyword(null,"db","db",993250759));
 console.log(event);
 
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(db,new cljs.core.Keyword(null,"need-to-solve","need-to-solve",-258791151),false,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"solving","solving",-175043197),true], 0)),new cljs.core.Keyword(null,"fx","fx",-1237829572),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"dispatch-later","dispatch-later",291951390),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ms","ms",-1152709733),cljs.core.nth.cljs$core$IFn$_invoke$arity$2(event,(1)),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("pz15.events","key-left","pz15.events/key-left",-945053855),(0)], null)], null)], null)], null)], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","timeout-right","pz15.events/timeout-right",22649708),(function (p__15482,arg){
-var map__15483 = p__15482;
-var map__15483__$1 = cljs.core.__destructure_map(map__15483);
-var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15483__$1,new cljs.core.Keyword(null,"event","event",301435442));
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15483__$1,new cljs.core.Keyword(null,"db","db",993250759));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","timeout-right","pz15.events/timeout-right",22649708),(function (p__15610,arg){
+var map__15611 = p__15610;
+var map__15611__$1 = cljs.core.__destructure_map(map__15611);
+var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15611__$1,new cljs.core.Keyword(null,"event","event",301435442));
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15611__$1,new cljs.core.Keyword(null,"db","db",993250759));
 console.log(event);
 
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(db,new cljs.core.Keyword(null,"need-to-solve","need-to-solve",-258791151),false,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"solving","solving",-175043197),true], 0)),new cljs.core.Keyword(null,"fx","fx",-1237829572),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"dispatch-later","dispatch-later",291951390),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ms","ms",-1152709733),cljs.core.nth.cljs$core$IFn$_invoke$arity$2(event,(1)),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("pz15.events","key-right","pz15.events/key-right",898237066),(0)], null)], null)], null)], null)], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","timeout-up","pz15.events/timeout-up",-1261138942),(function (p__15484,arg){
-var map__15485 = p__15484;
-var map__15485__$1 = cljs.core.__destructure_map(map__15485);
-var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15485__$1,new cljs.core.Keyword(null,"event","event",301435442));
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15485__$1,new cljs.core.Keyword(null,"db","db",993250759));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","timeout-up","pz15.events/timeout-up",-1261138942),(function (p__15612,arg){
+var map__15613 = p__15612;
+var map__15613__$1 = cljs.core.__destructure_map(map__15613);
+var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15613__$1,new cljs.core.Keyword(null,"event","event",301435442));
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15613__$1,new cljs.core.Keyword(null,"db","db",993250759));
 console.log(event);
 
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(db,new cljs.core.Keyword(null,"need-to-solve","need-to-solve",-258791151),false,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"solving","solving",-175043197),true], 0)),new cljs.core.Keyword(null,"fx","fx",-1237829572),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"dispatch-later","dispatch-later",291951390),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ms","ms",-1152709733),cljs.core.nth.cljs$core$IFn$_invoke$arity$2(event,(1)),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("pz15.events","key-up","pz15.events/key-up",-193450930),(0)], null)], null)], null)], null)], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","timeout-solved","pz15.events/timeout-solved",-73615761),(function (p__15486,arg){
-var map__15487 = p__15486;
-var map__15487__$1 = cljs.core.__destructure_map(map__15487);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15487__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15487__$1,new cljs.core.Keyword(null,"event","event",301435442));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","timeout-solved","pz15.events/timeout-solved",-73615761),(function (p__15614,arg){
+var map__15615 = p__15614;
+var map__15615__$1 = cljs.core.__destructure_map(map__15615);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15615__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15615__$1,new cljs.core.Keyword(null,"event","event",301435442));
 console.log(event);
 
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(db,new cljs.core.Keyword(null,"need-to-solve","need-to-solve",-258791151),false,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"solving","solving",-175043197),true], 0)),new cljs.core.Keyword(null,"fx","fx",-1237829572),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"dispatch-later","dispatch-later",291951390),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ms","ms",-1152709733),cljs.core.nth.cljs$core$IFn$_invoke$arity$2(event,(1)),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("pz15.events","stop-solve","pz15.events/stop-solve",896187541),(0)], null)], null)], null)], null)], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","timeout-down","pz15.events/timeout-down",-1122333238),(function (p__15488,arg){
-var map__15489 = p__15488;
-var map__15489__$1 = cljs.core.__destructure_map(map__15489);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15489__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15489__$1,new cljs.core.Keyword(null,"event","event",301435442));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","timeout-down","pz15.events/timeout-down",-1122333238),(function (p__15616,arg){
+var map__15617 = p__15616;
+var map__15617__$1 = cljs.core.__destructure_map(map__15617);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15617__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15617__$1,new cljs.core.Keyword(null,"event","event",301435442));
 console.log(event);
 
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"need-to-solve","need-to-solve",-258791151),false),new cljs.core.Keyword(null,"fx","fx",-1237829572),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"dispatch-later","dispatch-later",291951390),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ms","ms",-1152709733),cljs.core.nth.cljs$core$IFn$_invoke$arity$2(event,(1)),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("pz15.events","key-down","pz15.events/key-down",-1790263068),(0)], null)], null)], null)], null)], null);
@@ -109,18 +109,18 @@ re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(db,new cljs.core.Keyword(null,"need-to-solve","need-to-solve",-258791151),false,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"solving","solving",-175043197),false], 0));
 }));
 pz15.events.solution_to_fx = (function pz15$events$solution_to_fx(solution){
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__15490,arg){
-var vec__15491 = p__15490;
-var e = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15491,(0),null);
-var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15491,(1),null);
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__15618,arg){
+var vec__15619 = p__15618;
+var e = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15619,(0),null);
+var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15619,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"dispatch-later","dispatch-later",291951390),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ms","ms",-1152709733),d,new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [e,(0)], null)], null)], null);
 }),pz15.events.states_to_events(solution));
 });
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","do-solve","pz15.events/do-solve",-492752428),(function (p__15494,arg){
-var map__15495 = p__15494;
-var map__15495__$1 = cljs.core.__destructure_map(map__15495);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15495__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15495__$1,new cljs.core.Keyword(null,"event","event",301435442));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","do-solve","pz15.events/do-solve",-492752428),(function (p__15622,arg){
+var map__15623 = p__15622;
+var map__15623__$1 = cljs.core.__destructure_map(map__15623);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15623__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15623__$1,new cljs.core.Keyword(null,"event","event",301435442));
 var a = (new Parallel(new cljs.core.Keyword(null,"state","state",-1988618099).cljs$core$IFn$_invoke$arity$1(db)));
 var sp = a.spawn((function (x){
 return pz15.bfs.bfs(x);
@@ -131,51 +131,55 @@ return cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq
 
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"solving","solving",-175043197),true),new cljs.core.Keyword(null,"fx","fx",-1237829572),cljs.core.deref(pz15.events.result_fx)], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","play-solution","pz15.events/play-solution",674303489),(function (p__15496,arg){
-var map__15497 = p__15496;
-var map__15497__$1 = cljs.core.__destructure_map(map__15497);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15497__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15497__$1,new cljs.core.Keyword(null,"event","event",301435442));
-var vec__15498 = event;
-var ev = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15498,(0),null);
-var sol = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15498,(1),null);
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","play-solution","pz15.events/play-solution",674303489),(function (p__15624,arg){
+var map__15625 = p__15624;
+var map__15625__$1 = cljs.core.__destructure_map(map__15625);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15625__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15625__$1,new cljs.core.Keyword(null,"event","event",301435442));
+var vec__15626 = event;
+var ev = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15626,(0),null);
+var sol = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15626,(1),null);
 var events = pz15.events.states_to_events(sol);
-var fx = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__15501,arg__$1){
-var vec__15502 = p__15501;
-var e = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15502,(0),null);
-var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15502,(1),null);
+var fx = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__15629,arg__$1){
+var vec__15630 = p__15629;
+var e = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15630,(0),null);
+var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15630,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"dispatch-later","dispatch-later",291951390),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ms","ms",-1152709733),d,new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [e,(0)], null)], null)], null);
 }),events);
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),db,new cljs.core.Keyword(null,"fx","fx",-1237829572),fx], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","do-new-solve","pz15.events/do-new-solve",-738758247),(function (p__15505,arg){
-var map__15506 = p__15505;
-var map__15506__$1 = cljs.core.__destructure_map(map__15506);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15506__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15506__$1,new cljs.core.Keyword(null,"event","event",301435442));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","do-new-solve","pz15.events/do-new-solve",-738758247),(function (p__15633,arg){
+var map__15634 = p__15633;
+var map__15634__$1 = cljs.core.__destructure_map(map__15634);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15634__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15634__$1,new cljs.core.Keyword(null,"event","event",301435442));
 var c = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((10));
 re_frame.core.dispatch(cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("pz15.events","play-solution","pz15.events/play-solution",674303489),pz15.bfs.bfs(new cljs.core.Keyword(null,"state","state",-1988618099).cljs$core$IFn$_invoke$arity$1(db))], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"flush-dom","flush-dom",-933676816),true], null)));
 
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"solving","solving",-175043197),true)], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","new-solve","pz15.events/new-solve",-1876562329),(function (p__15507,arg){
-var map__15508 = p__15507;
-var map__15508__$1 = cljs.core.__destructure_map(map__15508);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15508__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15508__$1,new cljs.core.Keyword(null,"event","event",301435442));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","new-solve","pz15.events/new-solve",-1876562329),(function (p__15635,arg){
+var map__15636 = p__15635;
+var map__15636__$1 = cljs.core.__destructure_map(map__15636);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15636__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15636__$1,new cljs.core.Keyword(null,"event","event",301435442));
+if(cljs.core.truth_(new cljs.core.Keyword(null,"solving","solving",-175043197).cljs$core$IFn$_invoke$arity$1(db))){
+return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"db","db",993250759),db], null);
+} else {
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"solving","solving",-175043197),true),new cljs.core.Keyword(null,"fx","fx",-1237829572),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"dispatch-later","dispatch-later",291951390),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ms","ms",-1152709733),(500),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("pz15.events","do-new-solve","pz15.events/do-new-solve",-738758247),(0)], null)], null)], null)], null)], null);
+}
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","solve","pz15.events/solve",-328198452),(function (p__15509,arg){
-var map__15510 = p__15509;
-var map__15510__$1 = cljs.core.__destructure_map(map__15510);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15510__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15510__$1,new cljs.core.Keyword(null,"event","event",301435442));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("pz15.events","solve","pz15.events/solve",-328198452),(function (p__15637,arg){
+var map__15638 = p__15637;
+var map__15638__$1 = cljs.core.__destructure_map(map__15638);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15638__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15638__$1,new cljs.core.Keyword(null,"event","event",301435442));
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"solving","solving",-175043197),true),new cljs.core.Keyword(null,"fx","fx",-1237829572),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"dispatch-later","dispatch-later",291951390),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ms","ms",-1152709733),(100),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("pz15.events","do-solve","pz15.events/do-solve",-492752428),(0)], null)], null)], null)], null)], null);
 }));
 pz15.events.move = (function pz15$events$move(db,event,f){
 var flag = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(event,(1)),(0))) || (cljs.core.not(new cljs.core.Keyword(null,"solving","solving",-175043197).cljs$core$IFn$_invoke$arity$1(db))));
-var new_state = (function (){var G__15511 = new cljs.core.Keyword(null,"state","state",-1988618099).cljs$core$IFn$_invoke$arity$1(db);
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__15511) : f.call(null,G__15511));
+var new_state = (function (){var G__15639 = new cljs.core.Keyword(null,"state","state",-1988618099).cljs$core$IFn$_invoke$arity$1(db);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__15639) : f.call(null,G__15639));
 })();
 if(flag){
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"state","state",-1988618099),new_state);
