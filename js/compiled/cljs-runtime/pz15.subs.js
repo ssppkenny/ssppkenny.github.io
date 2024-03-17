@@ -5,6 +5,9 @@ return new cljs.core.Keyword(null,"name","name",1843675177).cljs$core$IFn$_invok
 re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("pz15.subs","keydown-keys","pz15.subs/keydown-keys",1311935718),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
 return cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("re-pressed.core","keydown","re-pressed.core/keydown",-1588093301),new cljs.core.Keyword(null,"keys","keys",1068423698)], null));
 })], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("pz15.subs","elapsed-seconds","pz15.subs/elapsed-seconds",-1558987716),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db){
+return new cljs.core.Keyword(null,"elapsed-seconds","elapsed-seconds",-1097390899).cljs$core$IFn$_invoke$arity$1(db);
+})], 0));
 re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("pz15.subs","solving","pz15.subs/solving",689005368),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db){
 return new cljs.core.Keyword(null,"solving","solving",-175043197).cljs$core$IFn$_invoke$arity$1(db);
 })], 0));
